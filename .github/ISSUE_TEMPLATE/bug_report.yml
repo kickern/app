@@ -3,6 +3,21 @@ description: Something isn’t working right
 title: "[Bug]: "
 labels: [bug]
 body:
+  - type: select
+    id: association
+    attributes:
+      label: Association
+      description: Select the applicable association.
+      options:
+        - DTFB (DE)
+        - TFVHH (DE)
+        - NTFV (DE)
+        - NWTFV (DE)
+        - MTFV (DE)
+        - TFVB (DE)
+        - TFVSH (DE)
+        - STFV (DE)
+        - NTVB (NL)
   - type: textarea
     id: description
     attributes:
