@@ -42,7 +42,7 @@ body:
     id: platform
     attributes:
       label: Platform / Device / OS
-      description: E.g. Android 14, iOS 17, Web, Chrome 125, etc.
+      description: E.g. Android 14, iOS 17.
     validations:
       required: false
 
