@@ -70,5 +70,4 @@ body:
       description: Link related issues or tasks.
       placeholder: "#123, #456"
     validations:
-      required:
-false
+      required: false
