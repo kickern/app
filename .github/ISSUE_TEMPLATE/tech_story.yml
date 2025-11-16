@@ -1,0 +1,74 @@
+name: "🛠️ Technical Story"
+description: Technical task for architecture, refactoring, backend or infrastructure work.
+title: "[Tech]: "
+labels: ["tech"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: Describe the purpose of this technical work. What should be achieved?
+      placeholder: "Short explanation of the technical objective..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Background / Context
+      description: Why is this task needed? Provide relevant technical context.
+      placeholder: "Current situation, limitations, dependencies..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included in this technical story?
+      placeholder: |
+        - Implement ...
+        - Update ...
+        - Adjust ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_approach
+    attributes:
+      label: Technical Approach (optional)
+      description: Suggested technical approach or notes, if applicable.
+      placeholder: "Possible implementation direction or considerations..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Define clear, testable acceptance criteria.
+      placeholder: |
+        - Code is maintainable and reviewed
+        - Tests are added
+        - No regressions introduced
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact / Risks
+      description: Describe potential risks or system impact.
+      placeholder: "Possible risks or areas affected..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related Issues
+      description: Link related issues or tasks.
+      placeholder: "#123, #456"
+    validations:
+      required:
+false
